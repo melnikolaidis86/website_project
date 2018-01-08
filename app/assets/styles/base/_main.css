@@ -207,6 +207,65 @@ main {
     text-decoration: underline;
 }
 
+.contact-form h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.contact-form {
+    margin-bottom: 65px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 35px;
+}
+
+.contact-form input::placeholder {
+    text-align: center;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button button {
+    width: 32.5%;
+    padding: 11px 0;
+    font-size: 1rem;
+}
+
+.contact-info {
+    margin-bottom: 65px;
+}
+
+.contact-info-support {
+    margin-bottom: 65px;
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px; 
+}
+
+.contact-info table {
+    margin-bottom: 65px;
+}
+
+.margin-bottom-large {
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1100px) {
+    .submit-button button {
+        font-size: 0.8rem;
+    }
+}
+
 /* Footer content */
 footer {
     background-color: #111111;
@@ -229,7 +288,7 @@ footer {
 }
 
 .newsletter button {
-    width: 80%;
+    width: 100%;
     font-size: 1rem;
     padding: 11px 0; 
 }
@@ -245,7 +304,7 @@ footer {
 }
 
 .social-icons ul {
-    max-width: 60%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -274,4 +333,10 @@ footer {
     padding: 10px 0;
     text-align: center;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .social-icons ul {
+        max-width: 100%;
+    }
 }
