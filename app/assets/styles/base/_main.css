@@ -7,16 +7,20 @@ body {
 }
 
 .wrapper {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 @media screen and (max-width: 576px) {
     
     .wrapper {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Header Rules */
@@ -168,6 +172,8 @@ nav {
 }
 
 /* Main Content */
+
+/* Landing Page */
 main {
     background-color: #111111;
     color: #FFF;
@@ -207,6 +213,7 @@ main {
     text-decoration: underline;
 }
 
+/* Contact Page */
 .contact-form h3 {
     font-size: 1.2rem;
     text-align: center;
@@ -270,6 +277,60 @@ main {
     .submit-button button {
         font-size: 0.8rem;
     }
+}
+
+/* Service Page & Repair Page */
+.page-title h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.service-block, .repair-block {
+   margin-bottom: 65px; 
+}
+
+.service-image img, .repair-image img {
+    max-width: 100%;
+}
+
+.service-block-text p, .repair-block-text p {
+    text-align: justify;
+}
+
+.equipment-block, .other-block {
+    margin-bottom: 65px;  
+}
+
+.equipment-list h3, .other-list h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.equipment-list ul, .other-list ul {
+   margin-bottom: 35px; 
+}
+
+.other-list p {
+    text-align: center;
+}
+
+.equipment-image img, .other-image img {
+    max-width: 100%;
+}
+/* About Page */
+.about-text-block {
+    margin-bottom: 13vh;
+    padding: 1.5em;
+}
+
+.about-images {
+    margin-bottom: 10vh;
+}
+
+.about-images img {
+    max-width: 100%;
 }
 
 /* Footer content */
