@@ -1317,6 +1317,15 @@
     margin-bottom: 10vh;
 }.about-images img {
     max-width: 100%;
+}/* Company page */.page-description {
+    margin-bottom: 65px;
+}.page-description p {
+    text-align: justify;
+}.company-images {
+    margin-bottom: 65px;
+}.company-images img {
+    max-width: 100%;
+    padding: 1.3em;
 }/* Footer content */footer {
     background-color: #111111;
     color: #FFF;

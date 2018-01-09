@@ -319,6 +319,7 @@ main {
 .equipment-image img, .other-image img {
     max-width: 100%;
 }
+
 /* About Page */
 .about-text-block {
     margin-bottom: 13vh;
@@ -331,6 +332,24 @@ main {
 
 .about-images img {
     max-width: 100%;
+}
+
+/* Company page */
+.page-description {
+    margin-bottom: 65px;
+}
+
+.page-description p {
+    text-align: justify;
+}
+
+.company-images {
+    margin-bottom: 65px;
+}
+
+.company-images img {
+    max-width: 100%;
+    padding: 1.3em;
 }
 
 /* Footer content */
