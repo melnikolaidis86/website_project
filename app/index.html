@@ -32,8 +32,8 @@
                 <div class="col-lg-4 logo">
                     <img src="assets/images/autocentro-logo.png" alt="website-logo" />
                 </div>
-                <div class="col-lg-6 offset-lg-2">
-                    <nav>
+                <div class="col-lg-6 offset-lg-2 main-menu">
+                    <nav role="navigation">
                         <ul>
                             <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
                             <li>
@@ -64,10 +64,59 @@
                             <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
                         </ul>
                     </nav>
+                </div>  
+            </div>
+            <div class="row wrapper">
+                <div class="col-2 offset-5 responsive-menu-icon">
+                    <div id="menu_icon" class="menu-icon" onclick="responsive_menu_display()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wrapper">
+                <div id="responsive-menu" class="col-4 offset-4 responsive-menu-hide">
+                    <div class="responsive-menu-items">
+                        <ul>
+                            <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                            <li><span class="text-muted">ΕΤΑΙΡΙΑ</span>
+                                <ul>
+                                    <li><a href="company.html">ΤΟ ΣΥΝΕΡΓΕΙΟ ΜΑΣ</a></li>
+                                    <li><a href="about.html">ΠΟΙΟΙ ΗΜΑΣΤΕ</a></li>
+                                </ul>
+                            </li>
+                            <li><span class="text-muted">ΥΠΗΡΕΣΙΕΣ</span>
+                                <ul>
+                                    <li><a href="service.html">ΕΛΕΓΧΟΣ &amp; SERVICE</a></li>
+                                    <li><a href="repair.html">ΕΠΙΣΚΕΥΕΣ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+    
+    <script type="text/javascript">
+       
+       
+       function responsive_menu_display() {
+            var responsive_menu = document.getElementById("responsive-menu");
+            var menu_icon = document.getElementById("menu_icon");
+           
+            if(responsive_menu.className == "responsive-menu-hide") {
+                responsive_menu.className = "responsive-menu";
+                menu_icon.className = "menu-icon change";
+            } else {
+                responsive_menu.className = "responsive-menu-hide";
+                menu_icon.className = "menu-icon";
+            }
+       }
+       
+    </script>
     
     <section id="intro-image">
         <div class="container-fluid">

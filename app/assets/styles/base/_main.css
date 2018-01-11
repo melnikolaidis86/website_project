@@ -71,7 +71,7 @@ h3 {
     padding: 20px 0;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 992px) {
     #upper-header {
         font-size: .6rem;
     }
@@ -181,6 +181,118 @@ header nav > ul > li > a + div > ul > li > a:hover {
     header nav > ul {
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 768px) {
+    
+    header .main-menu {
+        display: none;
+    }
+    
+    header .responsive-menu-icon {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    header .main-menu {
+        display: block;
+    }
+    
+    header .responsive-menu-icon {
+        display: none;
+    }
+}
+
+/* Responisve Menu */
+.responsive-menu-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.menu-icon {
+    background-color: #9fba07; 
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: transform 0.4s ease-in;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.responsive-menu {
+    display: block;
+    transform: translate(50%; 0);
+}
+
+.responsive-menu-hide {
+    display: none;
+}
+
+.responsive-menu > div {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;    
+}
+
+.responsive-menu > div > ul {
+    display: block;
+    list-style: none;
+}
+
+.responsive-menu > div > ul > li {
+    display: block;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.responsive-menu > div > ul > li > a {
+    display: block;
+    color: #FFF;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.responsive-menu > div > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-menu > div > ul > li > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: .9rem;
+    margin-bottom: 15px;
+}
+
+.responsive-menu > div > ul > li > a:hover {
+    color: #9fba07; 
+}
+
+.responsive-menu > div > ul > li > ul > li > a:hover {
+    color: #9fba07; 
 }
 
 /* Intro image */
@@ -443,8 +555,12 @@ footer {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 992px) {
     .social-icons ul {
         max-width: 100%;
+    }
+    
+    .copyright p {
+        font-size: .6rem;
     }
 }
