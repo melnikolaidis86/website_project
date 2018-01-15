@@ -126,13 +126,13 @@
                     <h3 class="text-center mb-3">Βρείτε μας στα Social Media</h3>
                     <ul>
                         <li>
-                            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                            <a href="https://el-gr.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
                         </li>
                     </ul>                   
                 </div>
@@ -146,6 +146,24 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+       
+       
+       function responsive_menu_display() {
+            var responsive_menu = document.getElementById("responsive-menu");
+            var menu_icon = document.getElementById("menu_icon");
+           
+            if(responsive_menu.className == "responsive-menu-hide") {
+                responsive_menu.className = "responsive-menu";
+                menu_icon.className = "menu-icon change";
+            } else {
+                responsive_menu.className = "responsive-menu-hide";
+                menu_icon.className = "menu-icon";
+            }
+       }
+       
+    </script>
     
 </body>
 </html>
