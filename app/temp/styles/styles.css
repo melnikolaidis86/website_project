@@ -1320,11 +1320,16 @@
     background-color: #111111;
     padding-bottom: 2.5em;
     padding-top: 2em;
-}.intro-image {
-    position: relative;
-    overflow: hidden;
 }.intro-image img {
     max-width: 100%;
+    -webkit-filter: blur(1px);
+            filter: blur(1px);
+    transition: -webkit-filter 2s .8s ease-out;
+    transition: filter 2s .8s ease-out;
+    transition: filter 2s .8s ease-out, -webkit-filter 2s .8s ease-out;
+}.intro-image img:hover {
+   -webkit-filter: blur(0);
+           filter: blur(0);
 }.image-caption {
     position: absolute;
     bottom: 4.3em;
@@ -1453,6 +1458,14 @@
     -o-object-fit: cover;
        object-fit: cover;
     padding: 1.3em;
+    -webkit-filter: grayscale(.5);
+            filter: grayscale(.5);
+    transition: -webkit-filter .6s ease-in;
+    transition: filter .6s ease-in;
+    transition: filter .6s ease-in, -webkit-filter .6s ease-in;
+}.company-images img:hover {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
 }/* Footer content */footer {
     background-color: #111111;
     color: #FFF;

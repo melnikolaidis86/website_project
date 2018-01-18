@@ -302,13 +302,14 @@ header nav > ul > li > a + div > ul > li > a:hover {
     padding-top: 2em;
 }
 
-.intro-image {
-    position: relative;
-    overflow: hidden;
-}
-
 .intro-image img {
     max-width: 100%;
+    filter: blur(1px);
+    transition: filter 2s .8s ease-out;
+}
+
+.intro-image img:hover {
+   filter: blur(0);
 }
 
 .image-caption {
@@ -351,7 +352,6 @@ main {
     padding-top: 4.5em;
     padding-bottom: 2.5em;
 }
-
 
 .info-box img {
     width: 100%;
@@ -497,6 +497,12 @@ main {
     max-width: 100%;
     object-fit: cover;
     padding: 1.3em;
+    filter: grayscale(.5);
+    transition: filter .6s ease-in;
+}
+
+.company-images img:hover {
+    filter: grayscale(0);
 }
 
 /* Footer content */
