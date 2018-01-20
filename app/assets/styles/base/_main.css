@@ -16,11 +16,11 @@ body {
   .wrapper {
     margin-left: 48px;
     margin-right: 48px;
-    }   
+    }
 }
 
 @media screen and (max-width: 576px) {
-    
+
     .wrapper {
         margin-left: 15px;
         margin-right: 15px;
@@ -101,7 +101,7 @@ header {
 }
 
 @media screen and (max-width: 992px) {
-    
+
     .logo {
         justify-content: center;
     }
@@ -173,33 +173,33 @@ header nav > ul > li > a + div > ul > li > a {
 }
 
 header nav > ul > li > a + div > ul > li > a:hover {
-    color: #9fba07; 
+    color: #9fba07;
 }
 
 @media screen and (max-width: 992px) {
-    
+
     header nav > ul {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 768px) {
-    
+
     header .main-menu {
         display: none;
     }
-    
+
     header .responsive-menu-icon {
         display: block;
     }
 }
 
 @media screen and (min-width: 768px) {
-    
+
     header .main-menu {
         display: block;
     }
-    
+
     header .responsive-menu-icon {
         display: none;
     }
@@ -213,7 +213,7 @@ header nav > ul > li > a + div > ul > li > a:hover {
 }
 
 .menu-icon {
-    background-color: #9fba07; 
+    background-color: #9fba07;
     padding: 10px;
     display: inline-block;
     cursor: pointer;
@@ -250,7 +250,7 @@ header nav > ul > li > a + div > ul > li > a:hover {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 .responsive-menu > div > ul {
@@ -288,11 +288,11 @@ header nav > ul > li > a + div > ul > li > a:hover {
 }
 
 .responsive-menu > div > ul > li > a:hover {
-    color: #9fba07; 
+    color: #9fba07;
 }
 
 .responsive-menu > div > ul > li > ul > li > a:hover {
-    color: #9fba07; 
+    color: #9fba07;
 }
 
 /* Intro image */
@@ -326,21 +326,21 @@ header nav > ul > li > a + div > ul > li > a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .image-caption {
         transform: translate(-8%, 50%);
     }
-    
+
     .image-caption p {
         font-size: .7rem;
     }
 }
 
 @media screen and (max-width: 576px) {
-    
+
      .image-caption {
         transform: translate( 5%, 50%);
-    }   
+    }
 }
 
 /* Main Content */
@@ -362,7 +362,9 @@ main {
 
 .info-box p {
     text-align: justify;
+    font-size: 1rem;
     padding: 15px;
+    height: 6em;
 }
 
 .info-box a {
@@ -420,7 +422,7 @@ main {
 }
 
 .service-block, .repair-block {
-   margin-bottom: 65px; 
+   margin-bottom: 65px;
 }
 
 .service-image img, .repair-image img {
@@ -433,7 +435,7 @@ main {
 }
 
 .equipment-block, .other-block {
-    margin-bottom: 65px;  
+    margin-bottom: 65px;
 }
 
 .equipment-list h3, .other-list h3 {
@@ -443,7 +445,7 @@ main {
 }
 
 .equipment-list ul, .other-list ul {
-   margin-bottom: 35px; 
+   margin-bottom: 35px;
 }
 
 .other-list p {
@@ -474,7 +476,7 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .about-images img {
         display: none;
     }
@@ -525,7 +527,7 @@ footer {
 .newsletter button {
     width: 100%;
     font-size: 1rem;
-    padding: 11px 0; 
+    padding: 11px 0;
 }
 
 .social-icons ul {
@@ -552,7 +554,7 @@ footer {
 }
 
 .copyright {
-    background-color: #240000; 
+    background-color: #240000;
 }
 
 .copyright p {
@@ -565,7 +567,7 @@ footer {
     .social-icons ul {
         max-width: 100%;
     }
-    
+
     .copyright p {
         font-size: .6rem;
     }

@@ -1101,9 +1101,9 @@
   .wrapper {
     margin-left: 48px;
     margin-right: 48px;
-    }   
+    }
 }@media screen and (max-width: 576px) {
-    
+
     .wrapper {
         margin-left: 15px;
         margin-right: 15px;
@@ -1155,7 +1155,7 @@
     max-width: 65%;
     max-height: 10.5em;
 }@media screen and (max-width: 992px) {
-    
+
     .logo {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
@@ -1220,29 +1220,29 @@
     padding: .45rem 1.2rem .8rem 1.5rem;
     transition: all .1s ease-in-out;
 }header nav > ul > li > a + div > ul > li > a:hover {
-    color: #9fba07; 
+    color: #9fba07;
 }@media screen and (max-width: 992px) {
-    
+
     header nav > ul {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
     }
 }@media screen and (max-width: 768px) {
-    
+
     header .main-menu {
         display: none;
     }
-    
+
     header .responsive-menu-icon {
         display: block;
     }
 }@media screen and (min-width: 768px) {
-    
+
     header .main-menu {
         display: block;
     }
-    
+
     header .responsive-menu-icon {
         display: none;
     }
@@ -1255,7 +1255,7 @@
             justify-content: center;
     margin-bottom: 25px;
 }.menu-icon {
-    background-color: #9fba07; 
+    background-color: #9fba07;
     padding: 10px;
     display: inline-block;
     cursor: pointer;
@@ -1287,7 +1287,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }.responsive-menu > div > ul {
     display: block;
     list-style: none;
@@ -1313,9 +1313,9 @@
     font-size: .9rem;
     margin-bottom: 15px;
 }.responsive-menu > div > ul > li > a:hover {
-    color: #9fba07; 
+    color: #9fba07;
 }.responsive-menu > div > ul > li > ul > li > a:hover {
-    color: #9fba07; 
+    color: #9fba07;
 }/* Intro image */#intro-image {
     background-color: #111111;
     padding-bottom: 2.5em;
@@ -1340,21 +1340,21 @@
     text-align: center;
     font-weight: 600;
 }@media screen and (max-width: 768px) {
-    
+
     .image-caption {
         -webkit-transform: translate(-8%, 50%);
                 transform: translate(-8%, 50%);
     }
-    
+
     .image-caption p {
         font-size: .7rem;
     }
 }@media screen and (max-width: 576px) {
-    
+
      .image-caption {
         -webkit-transform: translate( 5%, 50%);
                 transform: translate( 5%, 50%);
-    }   
+    }
 }/* Main Content *//* Landing Page */main {
     background-color: #111111;
     color: #FFF;
@@ -1368,7 +1368,9 @@
     padding: 30px;
 }.info-box p {
     text-align: justify;
+    font-size: 1rem;
     padding: 15px;
+    height: 6em;
 }.info-box a {
     font-size: 1.1rem;
     display: block;
@@ -1412,7 +1414,7 @@
     text-align: center;
     margin-bottom: 65px;
 }.service-block, .repair-block {
-   margin-bottom: 65px; 
+   margin-bottom: 65px;
 }.service-image img, .repair-image img {
     max-width: 100%;
     -o-object-fit: cover;
@@ -1420,13 +1422,13 @@
 }.service-block-text p, .repair-block-text p {
     text-align: justify;
 }.equipment-block, .other-block {
-    margin-bottom: 65px;  
+    margin-bottom: 65px;
 }.equipment-list h3, .other-list h3 {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 35px;
 }.equipment-list ul, .other-list ul {
-   margin-bottom: 35px; 
+   margin-bottom: 35px;
 }.other-list p {
     text-align: center;
 }.equipment-image img, .other-image img {
@@ -1443,7 +1445,7 @@
     -o-object-fit: cover;
        object-fit: cover;
 }@media screen and (max-width: 768px) {
-    
+
     .about-images img {
         display: none;
     }
@@ -1479,7 +1481,7 @@
 }.newsletter button {
     width: 100%;
     font-size: 1rem;
-    padding: 11px 0; 
+    padding: 11px 0;
 }.social-icons ul {
     max-width: 80%;
     margin-left: auto;
@@ -1499,7 +1501,7 @@
 }.social-icons a:hover {
     color: #9fba07;
 }.copyright {
-    background-color: #240000; 
+    background-color: #240000;
 }.copyright p {
     padding: 10px 0;
     text-align: center;
@@ -1508,7 +1510,7 @@
     .social-icons ul {
         max-width: 100%;
     }
-    
+
     .copyright p {
         font-size: .6rem;
     }
