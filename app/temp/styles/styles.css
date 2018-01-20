@@ -1124,6 +1124,22 @@
     margin-bottom: 50px;
 }.mb-5 {
     margin-bottom: 65px;
+}button {
+  background-color: #FFFAFA;
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 400;
+  border: none;
+}button:hover, button:focus, button:active {
+  background-color: #9fba07;
+}@media screen and (max-width: 992px) {
+  button {
+    max-width: 60%;
+    margin-top: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }/* Upper Header Section */#upper-header {
     background-color: #240000;
     color: #FFF;
@@ -1345,7 +1361,10 @@
         display: block;
         position: absolute;
         top: 70%;
+        bottom: 0;
         left: 0;
+        right: 0;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1355,9 +1374,8 @@
     }
 }@media screen and (max-width: 576px) {
 
-     .image-caption {
-        -webkit-transform: translate( 5%, 50%);
-                transform: translate( 5%, 50%);
+     .image-caption p {
+       font-size: .9rem;
     }
 }/* Main Content *//* Landing Page */main {
     background-color: #111111;
@@ -1370,11 +1388,14 @@
     -o-object-fit: cover;
        object-fit: cover;
     padding: 30px;
+}.info-box h3 {
+    height: 2em;
 }.info-box p {
     text-align: justify;
     font-size: 1rem;
     padding: 15px;
-    height: 6em;
+    height: 6.7em;
+    margin-bottom: 65px;
 }.info-box a {
     font-size: 1.1rem;
     display: block;
@@ -1483,9 +1504,8 @@
     font-size: 1rem;
     padding: 10px;
 }.newsletter button {
-    width: 100%;
     font-size: 1rem;
-    padding: 11px 0;
+    padding: 10px;
 }.social-icons ul {
     max-width: 80%;
     margin-left: auto;

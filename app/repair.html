@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-	
+
 	<meta charset="utf-8">
 	<title>Service - Autocentro Sportivo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    
+
     <section id="upper-header">
         <div class="container-fluid">
             <div class="row wrapper header-info">
@@ -28,15 +28,15 @@
             </div>
         </div>
     </section>
-    
-    <header>
+
+		<header>
         <div class="container-fluid">
             <div class="row wrapper">
                 <div class="col-lg-4 logo">
                     <img src="assets/images/autocentro-logo.png" alt="website-logo" />
                 </div>
-                <div class="col-lg-6 offset-lg-2">
-                    <nav>
+                <div class="col-lg-6 offset-lg-2 main-menu">
+                    <nav role="navigation">
                         <ul>
                             <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
                             <li>
@@ -69,9 +69,40 @@
                     </nav>
                 </div>
             </div>
+            <div class="row wrapper">
+                <div class="col-2 offset-5 responsive-menu-icon">
+                    <div id="menu_icon" class="menu-icon" onclick="responsive_menu_display()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wrapper">
+                <div id="responsive-menu" class="col-4 offset-4 responsive-menu-hide">
+                    <div class="responsive-menu-items">
+                        <ul>
+                            <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                            <li><span class="text-muted">ΕΤΑΙΡΙΑ</span>
+                                <ul>
+                                    <li><a href="company.html">ΤΟ ΣΥΝΕΡΓΕΙΟ ΜΑΣ</a></li>
+                                    <li><a href="about.html">ΠΟΙΟΙ ΗΜΑΣΤΕ</a></li>
+                                </ul>
+                            </li>
+                            <li><span class="text-muted">ΥΠΗΡΕΣΙΕΣ</span>
+                                <ul>
+                                    <li><a href="service.html">ΕΛΕΓΧΟΣ &amp; SERVICE</a></li>
+                                    <li><a href="repair.html">ΕΠΙΣΚΕΥΕΣ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    
+
     <main>
         <div class="container-fluid">
             <div class="row wrapper page-title">
@@ -108,55 +139,55 @@
             </div>
         </div>
     </main>
-    
-    <footer>
-        <div class="container-fluid">
-            <div class="row wrapper">
-                <div class="col-lg-4 col-md-6  newsletter mb-5">
-                    <h3 class="mb-3">Εγγραφείτε για να λαμβάνετε ενημερώσεις για προσφορές</h3>
-                    <form>
-                    <div class="row">
-                        <div class="col-8">
-                            <input type="text" placeholder="Συμπληρώστε το email σας" />
-                        </div>
-                        <div class="col-4">
-                            <button class="submit-button" type="submit">Αποστολή</button>
-                        </div>
-                    </div>
-                    </form>
-                </div>
-                <div class="col-lg-4 offset-lg-4 col-md-6 social-icons mb-5">
-                    <h3 class="text-center mb-3">Βρείτε μας στα Social Media</h3>
-                    <ul>
-                        <li>
-                            <a href="https://el-gr.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                        </li>
-                    </ul>                   
-                </div>
-            </div>     
-        </div>
-        <div class="container-fluid">
-            <div class="row copyright">
-                <div class="col-12">
-                    <p>Autocentro Sportivo Copyright &copy; 2018</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+
+		<footer>
+				<div class="container-fluid">
+						<div class="row wrapper">
+								<div class="col-lg-4 col-md-6  newsletter mb-5">
+										<h3 class="mb-3">Εγγραφείτε για να λαμβάνετε ενημερώσεις για προσφορές</h3>
+										<form>
+										<div class="row no-gutters">
+												<div class="col-lg-8 ">
+														<input type="text" placeholder="Συμπληρώστε το email σας" />
+												</div>
+												<div class="col-lg-4 ">
+														<button class="submit-button" type="submit">Αποστολή</button>
+												</div>
+										</div>
+										</form>
+								</div>
+								<div class="col-lg-4 offset-lg-4 col-md-6 social-icons mb-5">
+										<h3 class="text-center mb-3">Βρείτε μας στα Social Media</h3>
+										<ul>
+												<li>
+														<a href="https://el-gr.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+												</li>
+												<li>
+														<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+												</li>
+												<li>
+														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												</li>
+										</ul>
+								</div>
+						</div>
+				</div>
+				<div class="container-fluid">
+						<div class="row copyright">
+								<div class="col-12">
+										<p>Autocentro Sportivo Copyright &copy; 2018</p>
+								</div>
+						</div>
+				</div>
+		</footer>
 
     <script type="text/javascript">
-       
-       
+
+
        function responsive_menu_display() {
             var responsive_menu = document.getElementById("responsive-menu");
             var menu_icon = document.getElementById("menu_icon");
-           
+
             if(responsive_menu.className == "responsive-menu-hide") {
                 responsive_menu.className = "responsive-menu";
                 menu_icon.className = "menu-icon change";
@@ -165,8 +196,8 @@
                 menu_icon.className = "menu-icon";
             }
        }
-       
+
     </script>
-    
+
 </body>
 </html>
