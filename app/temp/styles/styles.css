@@ -1342,12 +1342,16 @@
 }@media screen and (max-width: 768px) {
 
     .image-caption {
-        -webkit-transform: translate(-8%, 50%);
-                transform: translate(-8%, 50%);
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .image-caption p {
-        font-size: .7rem;
+        font-size: 1.2rem;
     }
 }@media screen and (max-width: 576px) {
 
