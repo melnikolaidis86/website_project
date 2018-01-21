@@ -29,7 +29,7 @@
         </div>
     </section>
 
-		<header>
+    <header>
         <div class="container-fluid">
             <div class="row wrapper">
                 <div class="col-lg-4 logo">
@@ -40,10 +40,10 @@
                         <ul>
                             <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
                             <li>
-                                <a>
+                                <a onClick="displaySubMenu()">
                                     ΕΤΑΙΡΙΑ
                                     <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-                                    <div>
+                                    <div id="submenu">
                                         <ul>
                                             <li><a href="company.html">ΤΟ ΣΥΝΕΡΓΕΙΟ ΜΑΣ</a></li>
                                             <li><a href="about.html">ΠΟΙΟΙ ΗΜΑΣΤΕ</a></li>
@@ -53,10 +53,10 @@
 
                             </li>
                             <li>
-                                <a>
+                                <a onClick="displaySubMenu()">
                                     ΥΠΗΡΕΣΙΕΣ
                                     <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-                                    <div>
+                                    <div id="submenu">
                                         <ul>
                                             <li><a href="service.html">ΕΛΕΓΧΟΣ &amp; SERVICE</a></li>
                                             <li><a href="repair.html">ΕΠΙΣΚΕΥΕΣ</a></li>
@@ -183,7 +183,8 @@
 
     <script type="text/javascript">
 
-
+        
+        /* Function for displaying the responsive menu */
        function responsive_menu_display() {
             var responsive_menu = document.getElementById("responsive-menu");
             var menu_icon = document.getElementById("menu_icon");
@@ -195,7 +196,17 @@
                 responsive_menu.className = "responsive-menu-hide";
                 menu_icon.className = "menu-icon";
             }
-       }
+        }
+        
+        /* Function for showing submenu on tablet devices */
+        function displaySubMenu() {
+            
+            var submenu = document.getElementById('submenu');
+            
+            if(submenu.style.display == "none") {
+                submenu.style.display = "block"; 
+            }
+        }
 
     </script>
 
